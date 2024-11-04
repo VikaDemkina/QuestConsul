@@ -1,0 +1,5 @@
+C:\Users\Viksik\Study\QuestConsul\Gateway\obj\Debug\net8.0\Gateway.csproj.AssemblyReference.cache
+C:\Users\Viksik\Study\QuestConsul\Gateway\obj\Debug\net8.0\Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viksik\Study\QuestConsul\Gateway\obj\Debug\net8.0\Gateway.AssemblyInfoInputs.cache
+C:\Users\Viksik\Study\QuestConsul\Gateway\obj\Debug\net8.0\Gateway.AssemblyInfo.cs
+C:\Users\Viksik\Study\QuestConsul\Gateway\obj\Debug\net8.0\Gateway.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+{
+    "profiles": {
+      "Review": {
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "launchBrowser": true,
+        "launchUrl": "reviews",
+        "applicationUrl": "http://localhost:5002",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      }
+    }
+  }
+  

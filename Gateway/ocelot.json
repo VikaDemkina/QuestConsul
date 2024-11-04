@@ -1,0 +1,29 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "questCatalog",
+      "DownstreamPathTemplate": "/quests",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/quests",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "questReview",
+      "DownstreamPathTemplate": "/reviews",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/reviews",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5003",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "PollConsul",
+      "PollingInterval": 100
+    }
+  }
+}
